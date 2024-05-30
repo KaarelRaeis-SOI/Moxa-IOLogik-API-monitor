@@ -1,5 +1,5 @@
 # Moxa-IOLogik-API
-API request for analog voltage data from Moxa iOLogik E1200 and graph with Plotly DASH
+API request for analog voltage data from Moxa iOLogik E1200 and graph in a stand-alone WebUI with Plotly DASH
 Also saves a .log and csv of all data
 ![Screenshot 2024-05-29 at 11 51 14](https://github.com/KaarelRaeis-SOI/Moxa-IOLogik-API-monitor/assets/160142038/5a09cdd6-bd7d-4ade-bcdf-554b8b3fac05)
 
