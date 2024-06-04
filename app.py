@@ -174,6 +174,9 @@ def update_graph_live(n):
     with reader.data_lock:
         df = reader.df.copy()
 
+    # Convert 'Timestamp' column to datetime
+    df['Timestamp'] = pd.to_datetime(df['Timestamp'])
+
     # Filter data to show only the last 24h
     current_time = pd.Timestamp.now()
     start_time = current_time - pd.Timedelta(hours=24)
